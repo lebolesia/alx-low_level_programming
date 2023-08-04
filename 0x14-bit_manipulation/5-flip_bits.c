@@ -18,10 +18,10 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	{
 		current = new >> i;
 		if (current & 1)
-			calculation++;
+			count++;
 	}
 
-	return (calculation);
+	return (count);
 }
 
 
